@@ -21,7 +21,8 @@ export class AppComponent {
     this.kegs = [
       new Keg("Black Butte Porter", "Deschutes Brewery", "Porter", 5, 5.2, 124, 0),
       new Keg("La Follie", "New Belgium", "Sour Brown Ale", 7, 7.0, 37, 1),
-      new Keg("Sierra Nevada Pale", "Sierra Nevada", "Pale Ale", 4, 5.6, 55, 2)
+      new Keg("Sierra Nevada Pale", "Sierra Nevada", "Pale Ale", 4, 5.6, 55, 2),
+      new Keg("Old Rasputin", "North Coast Brewing Co.", "Russian Imperial", 6, 9, 12, 3),
     ]
   }
 }

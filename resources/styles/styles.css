@@ -1,5 +1,7 @@
 h1 {
-  color: blue;
+  color: #007DC1;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 72px;
 }
 
 .deets {
@@ -22,4 +24,22 @@ h1 {
 .keg-form {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.btn-lg {
+  margin-top: -14px;
+  margin-left: 20px;
+}
+
+.serve-button {
+  margin-left: 20px;
+}
+
+.beerName {
+  font-family: 'Passion One', cursive;
+  font-size: 48px;
+}
+
+.hot-bod {
+  background-color: #FFE6C9;
 }
