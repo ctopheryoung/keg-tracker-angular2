@@ -1,12 +1,12 @@
-# Angular2 Project Template
+# Tap List App
 
-#### March 22, 2016
+#### March 23, 2016
 
 #### By Chris Young
 
 ## Description
 
-A simple Angular2/Node.js web application template.
+A simple Angular2/Node.js web application to keep track of kegs at a bar. Filter by kegs that are low and add new kegs.
 
 ## Technologies Used
 
