@@ -25,16 +25,13 @@ export class KegListComponent {
     this.onKegSelect = new EventEmitter();
   }
   kegClicked(clickedKeg: Keg): void {
-    console.log('sweet child', clickedKeg);
+    console.log(clickedKeg);
     this.selectedKeg = clickedKeg;
     this.onKegSelect.emit(clickedKeg);
   }
-  createKeg(userInput: string[]): void {
-    var floatPrice: number = parseFloat(userInput[3]);
-    var floatAbv: number = parseFloat(userInput[4]);
-    console.log("hi");
+  createKeg(userInput): void {
     this.kegList.push(
-      new Keg(userInput[0], userInput[1], userInput[2], floatPrice, floatAbv, this.kegList.length)
+      new Keg(userInput[0], userInput[1], userInput[2], userInput[3], userInput[4], userInput[5], this.kegList.length)
     )
   }
 }
